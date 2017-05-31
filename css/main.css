@@ -1,0 +1,140 @@
+/*background*/
+body{
+   background: #ffffff url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183172/books-2.jpg") no-repeat right top;
+    background-attachment: fixed;
+  background-size:100% 100%;
+}
+/*navigation */
+#myTopnav {
+    background-color: #333;
+    overflow: hidden;
+  margin-top:0px;
+  margin:5px 0px 5px 0px;
+ 
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  margin-top:0px;
+}
+a:hover{
+  color:lightgrey;
+}
+/* fonts*/
+p { 
+font-family: 'Roboto', sans-serif;
+background-color: ;
+}
+
+h1, h2, h3, h4 ,h5 {
+  font-family: 'Pacifico', cursive;
+  background-color: ;
+}
+.favTitle{
+  font-family: 'Pacifico', cursive;
+  font-size:2em;
+  background-color: ;
+  margin-bottom:
+}
+/*main content page one*/
+#main_content{
+  position: relative;
+  height:100px;
+  width:500px;
+  margin:5px auto;
+  background-color: #7A8F99;
+}
+#front_image{
+  float: right;
+  border:1px solid #333;
+  height:145px;
+  width:155px;
+  border-radius:3%;
+  margin: 5px 5px
+}
+/*introduction content*/
+#intro_content{
+  position: relative;
+  
+  margin:5px auto;
+  background-color: #7A8F99;
+}
+#intro_content{
+  position: relative;
+  height:800px;
+  width:500px;
+  margin:5px auto;
+  background-color: #7A8F99;
+}
+.image_intro{
+  float:right;
+  height:100px;
+  width:120px;
+  background: white;
+  padding:5px 5px 25px 5px;
+  margin: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.7;
+}
+.image_intro:hover{
+  height:200px;
+  width:250px;
+  opacity: 1.5;
+}
+div.polaroid {
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba (0, 0, 0, 0.19);
+  display:;}
+.left{
+  float:left;
+
+}
+/*favorites content*/
+
+#fav_content{
+  position: relative;
+  height:1700px;
+  width:500px;
+  margin:5px auto;
+  background-color: #7A8F99;
+}
+.tvImage {
+  float:left;
+  border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  margin:15px;
+    width: 150px;
+}
+section{
+  padding:5px;
+  margin:25px;
+}
+/* media for phone*/
+/* media for phone*/
+@media(max-width: 800px){
+  #main_content #intro_content{
+  position: relative;
+    height:90%;
+    width:70%;
+  background-color: #977068;
+}
+@media(max-width: 500px){
+  
+  #main_content, #intro_content, #fav_content{
+  position: relative;
+    height:90%;
+    width:70%;
+  background-color: white;
+  }
+  
+  #front_image{
+  border-radius:30%;
+  }
+}
