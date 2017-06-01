@@ -102,6 +102,7 @@ div.polaroid {
   height:1700px;
   width:500px;
   margin:5px auto;
+  padding: 5px auto;
   background-color: #7A8F99;
 }
 .tvImage {
