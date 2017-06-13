@@ -2,17 +2,14 @@
   display:;
   width:100%;
 }
-h1, a{
+a{
   color:white;
     text-decoration: none;
   font-size:1em;
   font-family:Rock Salt;
 }
-p{
-font-family:Fira Sans
-}
 body{
-  background-color:#2C2C2C;
+  background-color:#2C2C2c;
   color: white;
 }
 #main_nav{
@@ -25,7 +22,7 @@ body{
   margin-right:15px;
 }
 
-#triangle-bottomleft {
+.triangle-bottomleft {
   position:absolute;
   left:40%;
   opacity:.76;
@@ -35,7 +32,7 @@ body{
 	border-right: 70px solid 
     transparent;
 }
-#triangle-bottomright {
+.triangle-bottomright {
   position:absolute;
   left:40%;
   opacity: .53;
@@ -61,6 +58,9 @@ width: 100px;
   top:-60px;
   left:15px;
 }
+#arrow{
+  position:relative;
+}
 .top{
   position:relative;
   width:15px;
@@ -81,29 +81,30 @@ width: 100px;
 }
 .arrow_two{
   position:relative;
-width: 100px;
+  width: 100px;
 	height: 3px;
 	background: white;
   top:-60px;
   left:80%;
 }
 .top_two{
-  position:relative;
+  position:absolute;
   width:15px;
   height:3px;
   background:white;
   transform:rotate(25deg);
-  left:96%;
-  top:-67px;
+  top:-54px;
+  left:91%;
 }
 .bottom_two{
-  position:relative;
+  position:absolute;
   width:15px;
   height:3px;
   background:white;
   transform:rotate(-25deg);
-  left:96%;
-  top:-65px;
+  bottom:57px;
+  left:91%;
+  margin-right:14%;
 }
 
 
@@ -122,3 +123,46 @@ width: 100px;
 .social_text{
   height:35px;
 }
+.image_intro{
+  float:right;
+  height:100px;
+  width:120px;
+  background: white;
+  padding:5px 5px 25px 5px;
+  margin: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 0.7;
+}
+.image_intro:hover{
+  height:200px;
+  width:250px;
+  opacity: 1.5;
+}
+div.polaroid {
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba (0, 0, 0, 0.19);
+  display:;}
+.left{
+  float:left;
+}
+.intro_left{
+ position:absolute;
+  left:10%;
+  opacity:.36;
+	width: 0;
+	height: 0;
+	border-bottom: 900px solid #5889A5;
+	border-right: 500px solid 
+    transparent;
+}
+.intro_right{
+ position:absolute;
+  left:15%;
+  opacity: .13;
+	width: 0;
+	height: 0;
+	border-bottom: 900px solid #EB5757;
+	border-left: 500px solid transparent;
+}
+
