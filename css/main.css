@@ -13,15 +13,26 @@ body{
   color: white;
 }
 #main_nav{
-  position:relative;
-    margin-bottom:100px;
+  margin-bottom:100px;
+  
+}
+li{
+  list-style:none;
+
 }
 #favorite{
   position:absolute;
   left:80%;
   margin-right:15px;
+  list-style:none;
 }
-
+#home{
+  position:absolute;
+  left:50%;
+}
+#about_me{
+  justify-content:space-between;
+}
 .triangle-bottomleft {
   position:absolute;
   left:40%;
@@ -165,4 +176,31 @@ div.polaroid {
 	border-bottom: 900px solid #EB5757;
 	border-left: 500px solid transparent;
 }
-
+.favTitle{
+  margin-top:50px;
+}
+.hafive{
+  float:left;
+}
+}
+#fav_content{
+  position: relative;
+  height:1700px;
+  width:500px;
+  margin:5px auto;
+  background-color: #7A8F99;
+}
+.tvImage {
+  float:left;
+  border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  margin:15px;
+    width: 150px;
+}
+section{
+  background-color:;
+  height:240px;
+  padding:5px;
+  margin:25px;
+}
