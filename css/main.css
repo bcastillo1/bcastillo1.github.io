@@ -52,6 +52,25 @@ li{
 	border-bottom: 90px solid #EB5757;
 	border-left: 70px solid transparent;
 }
+.intro_left{
+ position:absolute;
+  left:10%;
+  opacity:.36;
+	width: 0;
+	height: 0;
+	border-bottom: 900px solid #5889A5;
+	border-right: 500px solid 
+    transparent;
+}
+.intro_right{
+ position:absolute;
+  left:15%;
+  opacity: .13;
+	width: 0;
+	height: 0;
+	border-bottom: 900px solid #EB5757;
+	border-left: 500px solid transparent;
+}
 #about_me{
   position:absolute;
   margin-left:5%
@@ -165,25 +184,7 @@ div.polaroid {
 .left{
   float:left;
 }
-.intro_left{
- position:absolute;
-  left:10%;
-  opacity:.36;
-	width: 0;
-	height: 0;
-	border-bottom: 900px solid #5889A5;
-	border-right: 500px solid 
-    transparent;
-}
-.intro_right{
- position:absolute;
-  left:15%;
-  opacity: .13;
-	width: 0;
-	height: 0;
-	border-bottom: 900px solid #EB5757;
-	border-left: 500px solid transparent;
-}
+
 .favTitle{
   margin-top:50px;
 }
