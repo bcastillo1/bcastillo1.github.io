@@ -19,8 +19,10 @@ li{
   list-style:none;
 }
 #favorite{
-  margin:15px auto;
-  list-style:none;
+	position:absolute;
+	left:80%;
+  	margin:15px auto;
+  	list-style:none;
 }
 #home{
   position:absolute;
