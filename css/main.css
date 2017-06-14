@@ -33,7 +33,7 @@ li{
   position:absolute;
   margin-left:5%
 }
-.triangle-bottomleft {
+#triangle-bottomleft {
   position:absolute;
   left:40%;
   opacity:.76;
@@ -43,7 +43,7 @@ li{
 	border-right: 70px solid 
     transparent;
 }
-.triangle-bottomright {
+#triangle-bottomright {
   position:absolute;
   left:40%;
   opacity: .53;
