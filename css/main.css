@@ -2,37 +2,26 @@
   display:;
   width:100%;
 }
-a, h1, p{
+a{
   color:white;
     text-decoration: none;
   font-size:1em;
   font-family:Rock Salt;
 }
 body{
-  background-color:#2C2C2c;
+  background-color:#2C2C2C;
   color: white;
 }
 #main_nav{
-  margin-bottom:100px;
-}
-li{
-  list-style:none;
+  position:relative;
+    margin-bottom:100px;
 }
 #favorite{
-	position:absolute;
-	left:80%;
-  	margin:15px auto;
-  	list-style:none;
-}
-#home{
   position:absolute;
-  left:50%;
+  left:80%;
+  margin-right:15px;
 }
-#about_me{
-  
-  position:absolute;
-  margin-left:5%
-}
+
 #triangle-bottomleft {
   position:absolute;
   left:40%;
@@ -51,6 +40,104 @@ li{
 	height: 0;
 	border-bottom: 90px solid #EB5757;
 	border-left: 70px solid transparent;
+}
+#about_me{
+  position:absolute;
+  margin-left:5%
+}
+.triangle{
+  margin-top:10px;
+  padding-bottom:10px;
+}
+
+.arrow{
+  position:relative;
+width: 100px;
+	height: 3px;
+	background: white;
+  top:-60px;
+  left:15px;
+}
+#arrow{
+  position:relative;
+}
+.top{
+  position:relative;
+  width:15px;
+  height:3px;
+  background:white;
+  transform:rotate(25deg);
+  left:15px;
+  top:-59px;
+}
+.bottom{
+  position:relative;
+  width:15px;
+  height:3px;
+  background:white;
+  transform:rotate(-25deg);
+  left:15px;
+  top:-70px;
+}
+#id {
+  position:relative;
+  height:10px;
+  width: 120px;
+  transform:rotate(180deg);
+}
+.arrow_two{
+  position:absolute;
+  width: 100px;
+	height: 3px;
+	background: white;
+  transform:rotate(180deg);
+  top:-60px;
+  left:80%;
+}
+.top_two{
+  position:absolute;
+  width:15px;
+  height:3px;
+  background:white;
+  transform:rotate(-25deg);
+  top:-63px;
+  left:80%;
+  
+}
+.bottom_two{
+  position:absolute;
+  width:15px;
+  height:3px;
+  background:white;
+  transform:rotate(25deg);
+  bottom:63px;
+  left:80%;
+  margin-right:14%;
+}
+
+
+
+#socials{
+  
+}
+.socials{
+	height: 40px;
+	background: #5A302C;
+  position: fixed;
+ bottom: 0;
+ width: 100%;
+  margin-top:10px;
+}
+.social_text{
+  height:35px;
+}
+#home{
+  position:absolute;
+  left:50%;
+}
+#about_me{ 
+  position:absolute;
+  margin-left:5%
 }
 .intro_left{
  position:absolute;
