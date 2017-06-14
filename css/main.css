@@ -19,9 +19,7 @@ li{
   list-style:none;
 }
 #favorite{
-  position:absolute;
-  left:80%;
-  margin-right:15px;
+  margin:15px auto;
   list-style:none;
 }
 #home{
@@ -29,7 +27,7 @@ li{
   left:50%;
 }
 #about_me{
-  justify-content:space-between;
+  margin:15px auto;
 }
 .triangle-bottomleft {
   position:absolute;
