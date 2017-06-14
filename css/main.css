@@ -30,6 +30,8 @@ li{
 }
 #about_me{
   margin:15px auto;
+  position:absolute;
+  margin-left:5%
 }
 .triangle-bottomleft {
   position:absolute;
@@ -68,10 +70,6 @@ li{
 	height: 0;
 	border-bottom: 900px solid #EB5757;
 	border-left: 500px solid transparent;
-}
-#about_me{
-  position:absolute;
-  margin-left:5%
 }
 .triangle{
   margin-top:10px;
