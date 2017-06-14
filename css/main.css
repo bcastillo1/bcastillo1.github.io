@@ -14,11 +14,9 @@ body{
 }
 #main_nav{
   margin-bottom:100px;
-  
 }
 li{
   list-style:none;
-
 }
 #favorite{
   position:absolute;
